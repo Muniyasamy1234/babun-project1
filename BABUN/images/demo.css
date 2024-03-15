@@ -1,0 +1,89 @@
+/* CSS for small devices (sm) */
+@media (max-width: 575.98px) {
+    .feedback-section-three {
+        padding-top: 100px; /* Adjust padding for small devices */
+    }
+    .title-one h2 {
+        font-size: 36px; /* Reduce font size for small devices */
+    }
+    .partner-slider-one {
+        flex-wrap: wrap; /* Allow logos to wrap for smaller screens */
+        justify-content: center; /* Center logos horizontally */
+        top: 0; /* Reset top position */
+    }
+}
+
+/* CSS for medium devices (md) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .title-one h2 {
+        font-size: 48px; /* Adjust font size for medium devices */
+    }
+    .partner-slider-one {
+        top: 0; /* Reset top position */
+    }
+}
+
+/* CSS for large devices (lg) */
+@media (min-width: 992px) {
+    .title-one h2 {
+        font-size: 64px; /* Default font size for large devices */
+    }
+    .partner-slider-one {
+        top: 58px; /* Adjust top position for large devices */
+    }
+}
+
+/* next */
+/* CSS for small devices (sm) */
+@media (max-width: 575.98px) {
+    .fancy-banner-four {
+        padding-top: 50px; /* Adjust padding for small devices */
+    }
+    .col-lg-6 {
+        margin-bottom: 30px; /* Adjust margin for small devices */
+    }
+    .title-one h2 {
+        font-size: 36px; /* Reduce font size for small devices */
+    }
+    p.mb-40 {
+        font-size: 16px; /* Reduce font size for small devices */
+    }
+    .platform-button-group {
+        margin-top: 30px; /* Adjust margin for small devices */
+    }
+}
+
+/* CSS for medium devices (md) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .col-lg-6 {
+        margin-bottom: 60px; /* Adjust margin for medium devices */
+    }
+    .title-one h2 {
+        font-size: 48px; /* Adjust font size for medium devices */
+    }
+    p.mb-40 {
+        font-size: 18px; /* Adjust font size for medium devices */
+    }
+    .platform-button-group {
+        margin-top: 40px; /* Adjust margin for medium devices */
+    }
+}
+
+/* CSS for large devices (lg) */
+@media (min-width: 992px) {
+    .fancy-banner-four {
+        padding-top: 80px; /* Adjust padding for large devices */
+    }
+    .col-lg-6 {
+        margin-bottom: 90px; /* Default margin for large devices */
+    }
+    .title-one h2 {
+        font-size: 64px; /* Default font size for large devices */
+    }
+    p.mb-40 {
+        font-size: 20px; /* Default font size for large devices */
+    }
+    .platform-button-group {
+        margin-top: 50px; /* Default margin for large devices */
+    }
+}
